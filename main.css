@@ -8,7 +8,7 @@ body {
 }
 
 #product-overview {
-  background: #ff1b68;
+  background: url("freedom.jpg");
   padding: 10px;
   /* width: 50%; */
   height: 528px;
