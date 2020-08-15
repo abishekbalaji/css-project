@@ -32,7 +32,6 @@ body {
   color: rebeccapurple;
 } */
 
-
 /* div > p {
   color: rebeccapurple;
 } */
@@ -43,6 +42,30 @@ body {
   padding: 8px 16px;
 }
 
+.main-header > div {
+  display: inline-block;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - (50px + 5px)); /* Extra 5px to consider the empty space between the div element and the nav element in our html file*/
+}
+
+.main-nav__brand {
+  text-decoration: none;
+  color: #0e4f1f;
+  font-weight: bold;
+}
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .main-nav__item {
   display: inline-block;
 }
+
+
