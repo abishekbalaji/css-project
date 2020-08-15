@@ -47,15 +47,20 @@ body {
 }
 
 .main-nav {
+  vertical-align: middle;
   display: inline-block;
   text-align: right;
-  width: calc(100% - (50px + 5px)); /* Extra 5px to consider the empty space between the div element and the nav element in our html file*/
+  width: calc(
+    100% - (70px + 5px)
+  ); /* Extra 5px to consider the empty space between the div element and the nav element in our html file*/
 }
 
 .main-nav__brand {
+  vertical-align: middle;
   text-decoration: none;
   color: #0e4f1f;
   font-weight: bold;
+  font-size: 22px;
 }
 
 .main-nav__items {
@@ -68,4 +73,25 @@ body {
   display: inline-block;
 }
 
+.main-nav__items a {
+  color: #0e4f1f;
+  text-decoration: none;
+  margin: 0 16px;
+  font-weight: bold;
+}
 
+.main-nav__items a:hover, .main-nav__items a:active {
+  color: white;
+}
+
+.main-nav__items--cta a{
+  background: #ff1b68;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.main-nav__items--cta a:hover, .main-nav__items--cta a:active {
+  background: white;
+  color: #ff1b68;
+}
