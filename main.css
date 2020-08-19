@@ -1,23 +1,24 @@
-* {
-  box-sizing: border-box;
-}
 
-body {
-  font-family: "Montserrat", sans-serif;
-  margin: 0;
-}
 
 #product-overview {
+  margin-top: 25px;
   background: url("freedom.jpg");
   padding: 10px;
   /* width: 50%; */
   height: 528px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #product-overview h1 {
   color: white;
   font-family: "Monda", sans-serif;
   /* margin: 30px; */
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  margin: 0;
 }
 
 .section-title {
@@ -37,67 +38,6 @@ body {
   color: rebeccapurple;
 } */
 
-.main-header {
-  background-color: #2ddf5c;
-  width: 100%;
-  padding: 8px 16px;
-}
-
-.main-header > div {
-  display: inline-block;
-}
-
-.main-nav {
-  vertical-align: middle;
-  display: inline-block;
-  text-align: right;
-  width: calc(
-    100% - (70px + 5px)
-  ); /* Extra 5px to consider the empty space between the div element and the nav element in our html file*/
-}
-
-.main-nav__brand {
-  vertical-align: middle;
-  text-decoration: none;
-  color: #0e4f1f;
-  font-weight: bold;
-  font-size: 22px;
-}
-
-.main-nav__items {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.main-nav__item {
-  display: inline-block;
-}
-
-.main-nav__items a {
-  color: #0e4f1f;
-  text-decoration: none;
-  margin: 0 16px;
-  font-weight: bold;
-}
-
-.main-nav__items a:hover,
-.main-nav__items a:active {
-  color: white;
-}
-
-.main-nav__items--cta a {
-  background: #ff1b68;
-  color: white;
-  padding: 8px 16px;
-  border-radius: 5px;
-}
-
-.main-nav__items--cta a:hover,
-.main-nav__items--cta a:active {
-  background: white;
-  color: #ff1b68;
-}
 
 /* Styling plans */
 
@@ -221,32 +161,3 @@ body {
   margin-bottom: 40px;
 }
 
-.main-footer {
-  background: black;
-  color: white;
-  height: 100px;
-  /* margin-top: 48px; */
-  padding: 32px;
-}
-
-.footer-list-items {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-}
-
-.footer-list-item {
-  display: inline-block;
-  margin: 0 16px;
-}
-
-.footer-list-item > a {
-  text-decoration: none;
-  color: white;
-}
-
-.footer-list-item > a:hover,
-.footer-list-item > a:active {
-  color: grey;
-}
